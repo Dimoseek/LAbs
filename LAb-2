@@ -1,1 +1,15 @@
-
+int main()
+{
+    int i;
+    i = 69;
+    int number = 72;
+    i = 69 + 72;
+    int array[3] = {};
+    int* pointer = &i;
+    number = *pointer;
+    *pointer = 15;
+    pointer = &array[0];
+    pointer += 2;
+    array[0] = 5;
+    *pointer = 6;
+}
